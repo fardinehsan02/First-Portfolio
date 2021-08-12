@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: 'Poppins', sans-serif;
+}
+p{
+    color: dimgray;
+}
+section{
+    overflow: hidden;
+}
+.top-banner{
+    background-image: url(img/top-banner.png);
+    background-repeat: no-repeat;
+}
+h1{
+    font-size: 50px;
+}
+.name{
+    color: #eb2f06;
+}
+.opn-text{
+    width: 40%;
+    float: left;
+    padding: 2%;
+    margin:3% 0 0 5%;
+}
+.opn-text p{
+    text-align: justify;
+    margin-bottom: 1%;
+}
+.new-h1{
+    margin-bottom: 1%;
+}
+.radius{
+    width: 82%;
+    display: block;
+    position: relative;
+    margin: 0 auto;
+    border-radius: 50%;
+    box-shadow: 5px 5px 10px #858282;
+}
+.fst-button{
+    text-decoration: none;
+    color: white;
+    background-image: linear-gradient(45deg, #b71540, #1e3799);
+    padding: 10px 30px;
+    display: inline-block;
+    border-radius: 10px;
+    font-weight: 600;
+}
+.dream{
+    color: #8e44ad;
+    font-size: 40px;
+}
+.dream-area{
+    background-image: url(img/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
+}
+.ehsan{
+    width: 30%;
+}
+.ex{
+    background-image: url(img/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+    margin-bottom: 5%;
+}
+.h2{
+    text-align: center;
+}
+.shadow{
+    width: 40%;
+    height: 400px;
+    float: left;
+    margin-left: 3.2%;
+    margin-top: 2%;
+    height: 80%;
+    z-index: 1000;
+    padding: 5% 2%;
+}
+footer p{
+    background-color: gray;
+    color: #ffffff;
+    padding: 5%;
+    text-align: center;
+    z-index: 10001;
+}
+.final{
+    box-shadow: 10px 10px 40px #959292;
+    border-radius: 5px;
+    overflow: hidden;
+}
+.border {
+    border-left: 7px solid;
+    border-image: linear-gradient(#e84118, #c23616);
+    border-image-slice: 1;
+}
+.border-2 {
+    border-left: 7px solid;
+    border-image: linear-gradient(#5352ed, #EA2027);
+    border-image-slice: 1;
+}
